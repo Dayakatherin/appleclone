@@ -14,9 +14,11 @@ function Apple() {
         <nav>
         <input id="nav-toggle" type="checkbox" />
           {/* <input id="nav-toggle" type="checkbox" /> */}
-          <i style={{color:"white"}} class="fa fa-apple"></i>
+
+         
 
           <ul class="links">
+          <i style={{color:"white"}} id="cart-icon" class="fa fa-apple"></i>
             <li><a href="#home">Store</a></li>
             <li><a href="#about">Mac</a></li>
             <li><a href="#work">iPad</a></li>
